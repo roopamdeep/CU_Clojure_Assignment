@@ -1,6 +1,24 @@
 # CU_Clojure_Assignment
 Sales Order Apllication using Functional Programming
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 It’s time to try a little functional programming. In this case, your job will be to
 develop a very simple Sales Order application using the Clojure language. REALLY simple. In fact,
 all it will really do is load data from a series of three disk files. This data will then form your Sales
