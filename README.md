@@ -1,24 +1,6 @@
 # CU_Clojure_Assignment
 Sales Order Apllication using Functional Programming
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 It’s time to try a little functional programming. In this case, your job will be to
 develop a very simple Sales Order application using the Clojure language. REALLY simple. In fact,
 all it will really do is load data from a series of three disk files. This data will then form your Sales
@@ -32,30 +14,6 @@ An example of the cust.txt disk file might be:
 3|Fan Yuhong|165 Happy Lane|345-4533
 Note that no error checking is required for any of the data files. You can assume that they have been
 created properly and all fields are present. Each field is separated by a “|” and contains a non-empty
-string. All text is case-sensitive so “John” and “john” are different people. Finally, there are no
-duplicate records/customers.
-prod.txt: This is the data for the product table. The schema is
-<prodID, itemDescription, unitCost>
-An example of the prod.txt disk file might be:
-1|shoes|14.96
-2|milk|1.98
-3|jam|2.99
-4|gum|1.25
-5|eggs|2.98
-6|jacket|42.99
-Again, the data is valid – no duplicates and text is case sensitive.
-sales.txt: This is the data for the main sales table. The schema is
-<salesID, custID, prodID, itemCount>
-An example of the sales.txt disk file might be:
-1|1|1|3
-2|2|2|3
-3|2|1|1
-4|3|3|4
-The first record (salesID 1), for example, indicates that John Smith (customer 1) bought 3 pairs of
-shoes (product 1). Again, you can assume that all of the values in the file (e.g., custID, prodID) are
-valid.
-So now you have to do something with your data. You will provide the following menu to allow the
-user to perform actions on the data:
 *** Sales Menu ***
 ------------------
 1. Display Customer Table
