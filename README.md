@@ -1,19 +1,7 @@
 # CU_Clojure_Assignment
 Sales Order Apllication using Functional Programming
 
-It’s time to try a little functional programming. In this case, your job will be to
-develop a very simple Sales Order application using the Clojure language. REALLY simple. In fact,
-all it will really do is load data from a series of three disk files. This data will then form your Sales
-database. Each table will have a “schema” that indicates the fields inside. So your DB will look like
-this:
-cust.txt: This is the data for the customer table. The schema is
-<custID, name, address, phoneNumber>
-An example of the cust.txt disk file might be:
-1|John Smith|123 Here Street|456-4567
-2|Sue Jones|43 Rose Court Street|345-7867
-3|Fan Yuhong|165 Happy Lane|345-4533
-Note that no error checking is required for any of the data files. You can assume that they have been
-created properly and all fields are present. Each field is separated by a “|” and contains a non-empty
+
 *** Sales Menu ***
 ------------------
 1. Display Customer Table
